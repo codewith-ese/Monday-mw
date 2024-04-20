@@ -170,7 +170,7 @@ ol li:hover {
 
 .col-6 p{
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     color: wheat;
     padding-top: 0;
     padding-left: 40px;
@@ -217,7 +217,7 @@ ol li:hover {
         text-align: left;
         padding-left: 40px;
         padding-right: 40px;
-        font-size: 14px;
+        font-size: 16px;
        justify-content: space-evenly; 
        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
        font-weight: lighter;
