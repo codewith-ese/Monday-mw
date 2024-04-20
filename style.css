@@ -219,7 +219,7 @@ html {
 }
 
 #menu_img{
-    width: 250px;
+    width: 300px;
     height:250px;
     border-radius: 10px;
     height:200px;
@@ -232,7 +232,7 @@ html {
 }
 
 @media only screen and (min-width: 450px) {
-    .col-3 #menu_img{width: 100%;
+    .col-3 menu #menu_img{width: 100%;
 
    }
 }
