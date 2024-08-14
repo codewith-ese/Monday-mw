@@ -6,11 +6,11 @@
     <title> Contact Us| Monday Eseinone </title>
     <meta name="description" content=" A Contact us page by Monday Eseinone at Brigham Young University 2024.">
     <meta name="author" content="Monday Erirore Eseinone">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="header_grid"> 
             <div class="logo-box">
                 <img src="images/crossedoars.jpeg" alt="main logo one">
@@ -24,7 +24,20 @@
                 </div>
             </nav>
         </div>
-    </header>
+    </header> -->
+    <div class="topnav" id="myTopnav">
+        <div class="logo-box">
+            <img src="images/crossedoars.jpeg" alt="main logo one">
+        </div>
+        
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
    
     <main class="grid">
@@ -112,13 +125,13 @@
                 </form>
                 <!--    form html ends here -->            
             </section>
-        </div>   <!-- contact div class ends here -->
+        </div>   <!-- contact div class ends here dd-->
 
         
             <section class="map-class">
                 <h2>Office Location </h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.6313051847746!2d3.239037332212586!3d6.601402441757054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9a8952f3c043%3A0xc535e05cd3311792!2sAyobo%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1716897011860!5m2!1sen!2sng"
-                width="800" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
             </section>
         
                 <!-- Staff class starts here -->
@@ -153,7 +166,9 @@
     <footer class="footer-grid">
         <div class="footer-grid-item"> 
             <p>©2024🗽 MBC Online Store🗽 Monday Erirore Eseinone 🗽  </p>
-            <a href="https://app.moqups.com/AIfMHh0fcSau23umQacfcZfchlvz7NTT/view/page/ad0fc2031">Draft link  </a>
+
+            <p>COPYRIGHT© 2024-Codewithese</p>
+            <!-- <a href="https://app.moqups.com/unsaved/166238a1/edit/page/ad64222d5">Draft link  </a> -->
             
         </div>
         <div class="footer-grid-item"> 
@@ -171,6 +186,18 @@
         </div> 
 
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
     
 </body>
 </html>

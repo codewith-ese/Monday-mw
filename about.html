@@ -6,11 +6,11 @@
     <title> About| Monday Eseinone </title>
     <meta name="description" content=" An about page by Monday Eseinone at Brigham Young University 2024.">
     <meta name="author" content="Monday Erirore Eseinone">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="header_grid"> 
             <div class="logo-box">
                 <img src="images/crossedoars.jpeg" alt="logo for about">
@@ -24,33 +24,43 @@
                 </div> 
             </nav>
         </div>
-    </header>
+    </header> -->
+    <div class="topnav" id="myTopnav">
+        <div class="logo-box">
+            <img src="images/crossedoars.jpeg" alt="main logo one">
+        </div>
+        
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
   <!--  <div class="grid"> -->
     <main class="grid">
         <div class="hero">
             <img src="images/tia-rus.jpg" alt=" new background image for about hero page">
-            <h1> Best Rafting Adventures</h1>
+            <h1> Professional Website developer</h1>
             <article>
                 <h2>Welcome to the undeniably exhilarating universe of water boating! </h2>
                 <img src="images/rafting4_600.jpg" alt="small article image new" width="200">
-                <p>Plan to leave on a 
-                    remarkable excursion loaded with experience, adrenaline, and normal magnificence. 
-                    Our site is your door to investigating the most energizing boating objections globally. 
-                    Go along with us as we jump into the elating universe of water boating and find the
-                     surge of exploring strong rapids amid shocking scenes. Prepare to encounter a
-                      definitive mix of energy and peacefulness as you explore the streams with us.
-                       We should head out and gain experiences that will endure forever! </p>
+                <p>Welcome to the about me section! I am a passionate professional dedicated to 
+                    building your user-friendly website. With years of experience in website
+                     development industry, I have developed a deep understanding and a knack 
+                     for html, CSS, JavaScript, python, and c sharp. </p>
             </article>
         </div>
         <!-- History class starts here -->
         
-        <div class="history-header">
-            <h2> History</h2>
+        <div class="about-header">
+            <h2> About Us</h2>
         </div>
         <div class="history">
             
-            <section class="hitory_items">
+            <section class="history_items">
                 <h3> A </h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, 
                     quae? Veritatis sed deleniti at voluptate consequuntur modi deserunt, 
@@ -58,11 +68,11 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe nesciunt sed velit mollitia, </p>
                  
             </section>
-            <section class="hitory_items">
+            <section class="history_items">
                 <h2> History</h2>
                 <img src="images/history101.jpg" alt="history new image" width="250">
             </section>    
-            <section class="hitory_items">
+            <section class="history_items">
                 <h3> C </h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, 
                     quae? Veritatis sed deleniti at voluptate consequuntur modi deserunt, 
@@ -109,25 +119,41 @@
             <!-- Adventure class ends here -->
         </main>
    <!-- </div>-->
-    <footer class="footer-grid">
-        <div class="footer-grid-item"> 
-            <p>©2024🗽 MBC Online Store🗽 Monday Erirore Eseinone 🗽 </p>
-        </div>
-        <div class="footer-grid-item"> 
-            <nav>
-                <a href="https://www.facebook.com/monday.eseinone/">
-                    <img src="images/facebook-icon.webp" alt="facebook icon ">
-                </a>
-                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-                    <img src="images/linkedin-icon.webp" alt="Linkedin icon ">
-                </a>
-                <a href="https://www.instagram.com/code_with_ese/">
-                    <img src="images/instagram-icon.webp" alt="instagram icon ">
-                </a>
-            </nav> 
-        </div> 
+   <footer class="footer-grid">
+    <div class="footer-grid-item"> 
+        <p>©2024🗽 MBC Online Store🗽 Monday Erirore Eseinone 🗽  </p>
 
-    </footer>
+        <p>COPYRIGHT© 2024-Codewithese</p>
+        <!-- <a href="https://app.moqups.com/unsaved/166238a1/edit/page/ad64222d5">Draft link  </a> -->
+        
+    </div>
+    <div class="footer-grid-item"> 
+        <nav>
+            <a href="https://www.facebook.com/monday.eseinone/">
+                <img src="images/facebook-icon.webp" alt="facebook icon ">
+            </a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+                <img src="images/linkedin-icon.webp" alt="Linkedin icon ">
+            </a>
+            <a href="https://www.instagram.com/code_with_ese/">
+                <img src="images/instagram-icon.webp" alt="instagram icon ">
+            </a>
+        </nav> 
+    </div> 
+
+</footer>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
        
 </body>
 </html>

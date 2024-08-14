@@ -6,34 +6,37 @@
     <title> Home| Monday Eseinone </title>
     <meta name="description" content=" A Home page by Monday Eseinone, an online Student at Brigham Young University 2024.">
     <meta name="author" content="Monday Erirore Eseinone">
-    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
-      
-        <div class="header_grid"> 
-            <div class="logo-box">
-                <img src="images/crossedoars.jpeg" alt="main logo one">
-            </div>
-            <nav>
-                <div class="navigation">
-                    <a href="index.html"> Home</a>
-                    <a href="about.html">About Us</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <div class="topnav" id="myTopnav">
+        <div class="logo-box">
+            <img src="images/crossedoars.jpeg" alt="main logo one">
+        </div>  
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
 
    <!--  <div class="grid"> -->
-    <main class="grid">
+    <main class="grid-class">
         <div class="hero"> <!-- hero class starts here -->
-          <img id="home-img" src="images/rafting50_1024.jpg" alt="home page image for background"> 
-            <h1> Welcome to the thrilling world<br> of water  
-                rafting! an unforgettable  journey<br> filled with adventure </h1>  
+          <img id="home-img" src="images/back3.jpg" alt="home page image for background"> 
+            <h1> Welcome to Our Professional Landing Page Design <br/> 
+                Your success starts here. Join us and grow your business. </h1>
+            <!-- <p>Your success starts here. Join us and grow your business. </p>   -->
             </div>   <!-- hero class ends here -->
+
+            <div class="home-header">
+                <h2><a href="blog.html" class="getstarted-cta-button">Get Started</a></h2>
+            </div>
 
             <section class="first-section-grid"> <!-- Buy div class in section starts here -->
                 
@@ -41,9 +44,9 @@
                    
 
                     <!--  News letter form  starts here -->
-                    <a href="trips.html" class="button-exp" > Exploure Now &#8594;</a>
+                    <a href="blog.html" class="button-exp" > Exploure Now &#8594;</a>
 
-                        <section class="first-section-grid-item">
+                     
                             <div class="contact-header">
                                 <h2> Subscribe</h2>
                             </div>
@@ -73,7 +76,7 @@
                             <button type="submit">Submit</button>
                             </form>
                             <!-- form html ends here-->            
-                        </section>
+                        
                     <!-- contact div class ends here -->
                         
                 </div>
@@ -95,8 +98,8 @@
 
                 <!-- Products class starts here -->
                 <h2> More Information about our services  </h2>
-            <section class="products-home-grid">
-                <div class="products-home-grid-item">
+            <section class="second-section-grid">
+                <div class="second-section-grid-item">
                     <h3> 1/2 DAY RAFT TRIP</h3>
                     <figure>  
                         <img src="images/rafting-home1.jpg" alt="product image1">
@@ -104,7 +107,7 @@
                     </figure>
                     <button class="byu_now_button"> BOOK NOW</button>
                 </div>
-                <div class="products-home-grid-item"> 
+                <div class="second-section-grid-item"> 
                     <h3> 1 DAY RAFT TRIP</h3>
                     <figure>
                         <img src="images/home2.jpg" alt="product image2">
@@ -112,7 +115,7 @@
                     </figure>
                     <button class="byu_now_button"> BOOK NOW</button>
                 </div>
-                <div class="products-home-grid-item"> 
+                <div class="second-section-grid-item"> 
                     <h3>2 DAY RAFT TRIP</h3>
                     <figure>
                     <img src="images/home3.jpg" alt="product image3">
@@ -120,7 +123,7 @@
                     </figure>
                     <button class="byu_now_button"> BOOK NOW</button>
                 </div>
-                <div class="products-home-grid-item"> 
+                <div class="second-section-grid-item"> 
                     <h3> 3 DAY RAFT TRIP</h3>
                     <figure>
                     <img src="images/home4.webp" alt="product image3">
@@ -133,15 +136,15 @@
 
                 <!-- product two class starts here -->
                 <h2> Our Lattest Products </h2>
-            <section class="product-two-home">
-                <div class="product-two-home-item">
+            <section class="third-section-grid">
+                <div class="third-section-grid-item">
                     <h3> Pro1</h3>
                     <figure>  
                         <img src="images/home5.webp" alt="shoe new image1">
                         <figcaption> Colins Jayman <br> Adminstrative Director </figcaption>
                     </figure>
                 </div>
-                <div class="product-two-home-item">
+                <div class="third-section-grid-item">
                     <h3> pro2</h3>
                     <figure>  
                         <img src="images/home6.webp" alt=" shoe new image2">
@@ -155,7 +158,9 @@
     <footer class="footer-grid">
         <div class="footer-grid-item"> 
             <p>©2024🗽 MBC Online Store🗽 Monday Erirore Eseinone 🗽  </p>
-            <a href="https://app.moqups.com/unsaved/166238a1/edit/page/ad64222d5">Draft link  </a>
+
+            <p>COPYRIGHT© 2024-Codewithese</p>
+            <!-- <a href="https://app.moqups.com/unsaved/166238a1/edit/page/ad64222d5">Draft link  </a> -->
             
         </div>
         <div class="footer-grid-item"> 
@@ -173,6 +178,17 @@
         </div> 
 
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
     
 </body>
 </html>
